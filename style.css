@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --gradient-color:linear-gradient(rgb(230,16,206),#fdba02);
+    --backgound-color:#0f0c29;
+    --primary-color:#fdba02;
+
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    background-color: var(--backgound-color);
+    border: 2rem solid transparent;
+    border-image: linear-gradient(95deg,rgb(230,16,206),#fdba02);
+    border-image-slice: 2;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: var(--backgound-color);
+    top: 0%;
+    left: 0%;
+    position: sticky;
+    display: flex;
+    z-index: 1;
+    color: var(--primary-color);
+}
+
+.logo{
+    width: 35%;
+    height:100px;
+}
+.logo h1{
+    line-height: 100%;
+    padding-left: 10rem;
+    padding-top: 2.0rem;
+    font-size: 2.5rem;
+       
+}
+
+ul{
+    columns: var(--primary-color);
+    background-color: var(--backgound-color);
+}
+.items{
+    width: 50%;
+    height: 8vh;
+    columns: var(--primary-color);
+    background-color: var(--backgound-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+    list-style: none;
+}
+
+.items li a{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight:bolder;
+    text-transform: uppercase;
+}
+
+.font{
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+   text-transform: uppercase;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+#hero{
+    height: 35rem;
+}
+.font h1{
+    padding-top: 4.5rem;
+    font-size: 3rem;
+}
+h4{
+    font-size: 1.5rem;
+    text-align: center;
+    background:#e7e4da;
+    padding-top: 5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-justify:newspaper;
+}
+img{
+    height: 20rem;
+
+    padding-left: 10rem;
+    
+}
+.font h3{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+    background:var(--gradient-color);
+    padding-top: 2rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-justify:newspaper;
+}
+.font h5{
+    font-weight: bolder;
+    font-family: 'peddana', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    background-color: #e7e4da;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-justify:newspaper;
+    text-justify: distribute-all-lines;
+
+}
+#hero{
+    height: 40rem;
+}
+
+#about-image{
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.about-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    }
+
+.about-body{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.about-content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+/*service section*/
+.service-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.services{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+/*article section */
+.article-image{
+    width: 30rem;;
+    height: 15rem;
+    
+}
+
+.article-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.article-1{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 00.5fr 0.5fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+} 
+
+.article-2{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 00.5fr 0.5fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+
+.article-3{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 00.5fr 0.5fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+} 
+
+/*footer section*/
+
+.footer-heading{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 102rem;
+    
+}
